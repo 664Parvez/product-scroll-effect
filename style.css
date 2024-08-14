@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#cream {
+    height: auto;
+    width: 150px;
+    position: fixed;
+    text-align: center;
+    left: 50%;
+    top: 20%;
+    z-index: 555;
+    transform: rotate(-20deg);
+    transition: .5s ease-in-out;
+}
+
+#page1 {
+    height: 100vh;
+    background-color: #556489;
+}
+#page2 {
+    height: 100vh;
+    background-color: #558962;
+}
+#page3 {
+    height: 100vh;
+    background-color: #897455;
+}
+#page4 {
+    height: 100vh;
+    background-color: #895569;
+}
